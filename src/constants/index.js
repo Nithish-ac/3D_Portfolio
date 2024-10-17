@@ -15,6 +15,9 @@ import {
   digamend,
   rpgames,
   unreal,
+  rivw,
+  aoc,
+  supremerangale,
 } from "../assets";
 
 export const navLinks = [
@@ -151,67 +154,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "RIVW",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: unityc,
-    source_code_link: "https://github.com/",
+      "RIVW is an immersive VR game where players explore stunning world-famous monuments using their own 3D models. You can experience these iconic sites with your loved ones, sharing their presence and sound in a beautifully realistic virtual world.",
+    tags:[],
+    image: rivw,
+    source_code_link: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7194579413517148160",
   },
   {
-    name: "Job IT",
+    name: "Age Of Clashes",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: unityc,
-    source_code_link: "https://github.com/",
+      "Dive into the nostalgic echoes of Age of Empires with Age of Clashes, a thrilling PVP real-time strategy game. Balance your economy and military might to unleash strategic warfare, destroy opponent bases, and rise through the ranks!",
+    tags: [],
+    image: aoc,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.rpgames.ageofclashes&pcampaignid=web_share",
   },
   {
-    name: "Trip Guide",
+    name: "Supreme rangale",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: unityc,
-    source_code_link: "https://github.com/",
+      "Supreme Rangale invites you to dive into a lit 2.5D platformer, where you yeet through vibrant levels and flex your skills against epic challenges. Experience a thrilling adventure filled with tight controls and non-stop action that keeps you on your toes!",
+    tags: [],
+    image: supremerangale,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.DefaultCompany.carcrashing&pcampaignid=web_share",
   },
 ];
 

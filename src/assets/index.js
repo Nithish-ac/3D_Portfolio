@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import design from "./design.png";
 import ai from "./ai.png";
 import unreal from "./unreal.png";
@@ -21,10 +21,15 @@ import playconsole from "./tech/playconsole.svg";
 import digamend from "./company/digamend.jpeg";
 import rpgames from "./company/rpgames.jpeg";
 
+import rivw from "./rivw.png"
+import aoc from "./aoc.png"
+import supremerangale from "./supremerangale.jpg"
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import arrow from "./arrow.png";
 export {
   logo,
   design,
@@ -49,4 +54,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  rivw,
+  aoc,
+  supremerangale,
+  arrow,
 };
