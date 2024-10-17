@@ -9,5 +9,21 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      const firebaseConfig = {
+      apiKey: "AIzaSyAXzXwPz18dM9gTXjRhirFT56qzaceDymo",
+      authDomain: "nithishkumar-51ade.firebaseapp.com",
+      projectId: "nithishkumar-51ade",
+      storageBucket: "nithishkumar-51ade.appspot.com",
+      messagingSenderId: "670873230084",
+      appId: "1:670873230084:web:4ef90dc2150a38aa08ce51",
+      measurementId: "G-9L41RGJKKJ"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
